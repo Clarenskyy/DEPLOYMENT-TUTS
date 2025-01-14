@@ -46,7 +46,7 @@ npm run build
 
 This will generate a dist folder or build folder with optimized production files.
 
-3. Move the contents of the `dist` or `build` folder to the `backend` directory (or the appropriate static file serving directory specified in your backend configuration).
+3. Move the `dist` or `build` folder to the `backend` directory (or the appropriate static file serving directory specified in your backend configuration).
 
 4. In your backend's main file (e.g., `server.js`), add the following code **after your routes** to serve the static files from the React build:
 
